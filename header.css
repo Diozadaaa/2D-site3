@@ -2,7 +2,7 @@
     width: 24px;
     height: 24px;
     display: inline-block;
-    background-image: url("Menu.svg");
+    background-image: url("img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -28,6 +28,8 @@
     position: absolute;
     top: 100%;
     width: 60vw;
+    border-radius: 0 0 20px 20px;
+    background-color: var(--branco);
 }
 .container__botao:checked ~ .lista-menu {
     display: block;
@@ -36,4 +38,8 @@
 .lista-menu_item {
     padding: 1em;
     background-color: var(--branco);
+    font-weight: 700
+}
+.container__botao {
+    display: none
 }
